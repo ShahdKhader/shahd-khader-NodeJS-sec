@@ -1,0 +1,9 @@
+doctype html
+html
+  head
+    title Book Details
+    link(rel='stylesheet', href='/styles.css')
+  body
+    h1= book.name
+    p ID: #{book.id}
+    a(href='/books') Back to Books
